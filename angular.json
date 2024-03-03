@@ -17,7 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/prueba-apache",
+            "baseHref": "/prueba-apache/",
+            "outputPath": "D:/var/www/prueba-apache",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -102,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "8a1c051a-d838-481b-9021-815c66d0308b"
   }
 }
